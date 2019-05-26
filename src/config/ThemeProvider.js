@@ -52,3 +52,5 @@ ThemeProvider.defaultProps = {
 };
 
 export const ThemeConsumer = ThemeContext.Consumer;
+
+export const ThemeContext = ThemeContext;

@@ -38,7 +38,7 @@ import {
 
 // helpers
 import Text from './text/Text';
-import { colors, ThemeProvider, ThemeConsumer, withTheme } from './config';
+import { colors, ThemeProvider, ThemeConsumer, withTheme, ThemeContext } from './config';
 import getIconType, { registerCustomIconType } from './helpers/getIconType';
 import normalize from './helpers/normalizeText';
 

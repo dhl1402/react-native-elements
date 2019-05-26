@@ -76,4 +76,5 @@ export {
   withBadge,
   withTheme,
   Image,
+  ThemeContext
 };

@@ -4,7 +4,7 @@ import deepmerge from 'deepmerge';
 
 import colors from './colors';
 
-const ThemeContext = React.createContext();
+export const ThemeContext = React.createContext();
 
 export default class ThemeProvider extends React.Component {
   constructor(props) {
@@ -52,5 +52,3 @@ ThemeProvider.defaultProps = {
 };
 
 export const ThemeConsumer = ThemeContext.Consumer;
-
-export const ThemeContext;
